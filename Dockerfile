@@ -7,8 +7,7 @@ WORKDIR /app
 # Copy only the Rasa project directory into the container
 COPY ./my_first_bot /app
 
-# Train the Rasa model
-RUN rasa train
+
 
 # Expose the port for Rasa server
 EXPOSE 5005
