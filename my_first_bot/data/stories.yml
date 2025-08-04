@@ -1,0 +1,107 @@
+version: "3.1"
+
+stories:
+- story: greet path
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: goodbye path
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: thanks path
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- story: mood great path
+  steps:
+    - intent: mood_great
+    - action: utter_happy
+
+- story: mood unhappy path
+  steps:
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+
+- story: affirm path
+  steps:
+    - intent: affirm
+    - action: utter_did_that_help
+
+- story: deny path
+  steps:
+    - intent: deny
+    - action: utter_did_that_help
+
+- story: ask first aid path
+  steps:
+    - intent: ask_first_aid
+    - action: utter_ask_first_aid
+
+- story: ask symptom path
+  steps:
+    - intent: ask_symptom
+    - action: utter_ask_symptom
+
+- story: ask treatment path
+  steps:
+    - intent: ask_treatment
+    - action: utter_ask_treatment
+
+- story: ask medicine path
+  steps:
+    - intent: ask_medicine
+    - action: utter_ask_medicine
+
+- story: ask diet when sick path
+  steps:
+    - intent: ask_diet_sick
+    - action: utter_ask_diet_sick
+
+- story: ask home remedy path
+  steps:
+    - intent: ask_home_remedy
+    - action: utter_ask_home_remedy
+
+- story: ask covid test path
+  steps:
+    - intent: ask_covid_test
+    - action: utter_ask_covid_test
+
+- story: ask vaccine info path
+  steps:
+    - intent: ask_vaccine_info
+    - action: utter_ask_vaccine_info
+
+- story: ask flu vs covid path
+  steps:
+    - intent: ask_flu_vs_covid
+    - action: utter_ask_flu_vs_covid
+
+- story: ask doctor contact path
+  steps:
+    - intent: ask_doctor_contact
+    - action: utter_ask_doctor_contact
+
+- story: ask weight loss path
+  steps:
+    - intent: ask_weight_loss
+    - action: utter_ask_weight_loss
+
+- story: ask weight gain path
+  steps:
+    - intent: ask_weight_gain
+    - action: utter_ask_weight_gain
+
+- story: ask pcos info path
+  steps:
+    - intent: ask_pcos_info
+    - action: utter_ask_pcos_info
+
+- story: ask diet pcos path
+  steps:
+    - intent: ask_diet_pcos
+    - action: utter_ask_diet_pcos

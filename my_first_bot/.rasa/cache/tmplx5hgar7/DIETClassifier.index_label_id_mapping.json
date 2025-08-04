@@ -1,0 +1,23 @@
+{
+  "0": "affirm",
+  "1": "ask_covid_test",
+  "2": "ask_diet_pcos",
+  "3": "ask_diet_sick",
+  "4": "ask_doctor_contact",
+  "5": "ask_first_aid",
+  "6": "ask_flu_vs_covid",
+  "7": "ask_home_remedy",
+  "8": "ask_medicine",
+  "9": "ask_pcos_info",
+  "10": "ask_symptom",
+  "11": "ask_treatment",
+  "12": "ask_vaccine_info",
+  "13": "ask_weight_gain",
+  "14": "ask_weight_loss",
+  "15": "deny",
+  "16": "goodbye",
+  "17": "greet",
+  "18": "mood_great",
+  "19": "mood_unhappy",
+  "20": "thanks"
+}

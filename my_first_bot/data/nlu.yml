@@ -1,0 +1,183 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey there
+    - good morning
+    - what's up
+    - hey bot
+
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - take care
+    - goodbye
+    - I'm done
+    - end chat
+
+- intent: ask_first_aid
+  examples: |
+    - What should I do if someone faints?
+    - How do I give first aid?
+    - Someone collapsed, what should I do?
+    - First aid steps for unconscious person?
+    - What can I do in an emergency?
+    - How to help someone who got hurt?
+
+- intent: ask_symptom
+  examples: |
+    - I feel very weak
+    - I have a bad headache
+    - My stomach hurts a lot
+    - I feel dizzy and cold
+    - I'm coughing nonstop
+    - I have a sore throat and a runny nose
+    - My body is aching
+
+- intent: ask_treatment
+  examples: |
+    - How can I treat a fever at home?
+    - What should I do if I have cold?
+    - What is the treatment for food poisoning?
+    - Remedies for stomach pain?
+    - What to do if I feel nauseous?
+
+- intent: ask_medicine
+  examples: |
+    - What medicine should I take for headache?
+    - Can I take paracetamol for fever?
+    - Suggest a tablet for cold
+    - Is ibuprofen good for muscle pain?
+    - Which medicine helps with nausea?
+
+- intent: ask_diet_sick
+  examples: |
+    - What should I eat when I'm sick?
+    - Suggest a diet for cold and fever
+    - Can I eat fruits during fever?
+    - Is spicy food okay when I'm unwell?
+    - What to drink for quick recovery?
+
+- intent: ask_home_remedy
+  examples: |
+    - Any home remedy for cough?
+    - How to treat sore throat naturally?
+    - What helps reduce fever at home?
+    - Can I use ginger for cold?
+    - What home treatments actually work?
+
+- intent: ask_covid_test
+  examples: |
+    - Where can I get tested for COVID?
+    - How do I book a COVID test?
+    - Should I take a test if I have cough?
+    - I feel sick. Is it COVID?
+    - How to check if I have corona?
+
+- intent: ask_vaccine_info
+  examples: |
+    - Is COVID vaccine safe?
+    - How many vaccine doses do I need?
+    - Can I take the vaccine if I'm sick?
+    - What are vaccine side effects?
+    - Which COVID vaccine is better?
+
+- intent: ask_flu_vs_covid
+  examples: |
+    - I'm not sure if it's flu or COVID
+    - How do I know it's not just a cold?
+    - Symptoms of COVID vs flu?
+    - Is this cough due to corona?
+    - How to tell the difference between flu and corona?
+
+- intent: ask_doctor_contact
+  examples: |
+    - I need to talk to a doctor
+    - Can I get emergency help?
+    - How to reach a doctor?
+    - Can I book an appointment online?
+    - Is there a doctor I can chat with?
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - of course
+    - okay
+    - definitely
+
+- intent: deny
+  examples: |
+    - no
+    - not really
+    - I don't think so
+    - nope
+    - never
+
+- intent: mood_great
+  examples: |
+    - I feel awesome today
+    - Doing really well!
+    - I'm fine
+    - Feeling great
+    - I'm healthy and happy
+
+- intent: mood_unhappy
+  examples: |
+    - I'm not feeling good
+    - I'm sad
+    - I feel sick
+    - I'm really down
+    - It's been a rough day
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - I appreciate it
+    - That was helpful
+    - You're awesome!
+
+- intent: ask_weight_loss
+  examples: |
+    - How can I lose weight naturally?
+    - Suggest a diet plan for weight loss
+    - What foods should I avoid to lose weight?
+    - Tips for losing belly fat?
+    - I want to lose weight fast
+    - What exercise is best for fat loss?
+
+- intent: ask_weight_gain
+  examples: |
+    - How to gain weight quickly?
+    - I am underweight, what should I eat?
+    - What's a good diet for gaining muscle?
+    - Foods that help in weight gain?
+    - Can you help me gain healthy weight?
+    - What should I eat to become stronger and gain weight?
+
+- intent: ask_pcos_info
+  examples: |
+    - What is PCOD?
+    - How do I know if I have PCOS?
+    - Symptoms of PCOS?
+    - What foods should I avoid if I have PCOD?
+    - Is weight gain common in PCOS?
+    - How can I manage PCOS naturally?
+    - Is PCOD curable?
+    - Suggest diet for PCOS problem
+
+- intent: ask_diet_pcos
+  examples: |
+    - Give me a diet plan for PCOS
+    - What should I eat if I have PCOD?
+    - PCOD-friendly foods?
+    - Daily meal plan for PCOS
+    - Can I eat rice if I have PCOS?
+    - How should I control my diet in PCOD?

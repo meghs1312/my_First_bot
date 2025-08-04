@@ -1,0 +1,17 @@
+{
+  "0": "affirm",
+  "1": "ask_covid_test",
+  "2": "ask_diet_sick",
+  "3": "ask_doctor_contact",
+  "4": "ask_first_aid",
+  "5": "ask_flu_vs_covid",
+  "6": "ask_home_remedy",
+  "7": "ask_medicine",
+  "8": "ask_symptom",
+  "9": "ask_treatment",
+  "10": "ask_vaccine_info",
+  "11": "deny",
+  "12": "goodbye",
+  "13": "greet",
+  "14": "thanks"
+}

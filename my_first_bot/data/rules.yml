@@ -1,0 +1,108 @@
+version: "3.1"
+
+rules:
+
+- rule: Respond to greeting
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Respond to goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Respond to thanks
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- rule: Respond to positive mood
+  steps:
+    - intent: mood_great
+    - action: utter_happy
+
+- rule: Respond to negative mood
+  steps:
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+
+- rule: Respond to affirm
+  steps:
+    - intent: affirm
+    - action: utter_did_that_help
+
+- rule: Respond to deny
+  steps:
+    - intent: deny
+    - action: utter_did_that_help
+
+- rule: Respond to first aid question
+  steps:
+    - intent: ask_first_aid
+    - action: utter_ask_first_aid
+
+- rule: Respond to symptom question
+  steps:
+    - intent: ask_symptom
+    - action: utter_ask_symptom
+
+- rule: Respond to treatment question
+  steps:
+    - intent: ask_treatment
+    - action: utter_ask_treatment
+
+- rule: Respond to medicine question
+  steps:
+    - intent: ask_medicine
+    - action: utter_ask_medicine
+
+- rule: Respond to diet while sick
+  steps:
+    - intent: ask_diet_sick
+    - action: utter_ask_diet_sick
+
+- rule: Respond to home remedy question
+  steps:
+    - intent: ask_home_remedy
+    - action: utter_ask_home_remedy
+
+- rule: Respond to COVID test question
+  steps:
+    - intent: ask_covid_test
+    - action: utter_ask_covid_test
+
+- rule: Respond to vaccine info question
+  steps:
+    - intent: ask_vaccine_info
+    - action: utter_ask_vaccine_info
+
+- rule: Respond to flu vs COVID question
+  steps:
+    - intent: ask_flu_vs_covid
+    - action: utter_ask_flu_vs_covid
+
+- rule: Respond to doctor contact question
+  steps:
+    - intent: ask_doctor_contact
+    - action: utter_ask_doctor_contact
+
+- rule: Respond to weight loss question
+  steps:
+    - intent: ask_weight_loss
+    - action: utter_ask_weight_loss
+
+- rule: Respond to weight gain question
+  steps:
+    - intent: ask_weight_gain
+    - action: utter_ask_weight_gain
+
+- rule: Respond to PCOS/PCOD info question
+  steps:
+    - intent: ask_pcos_info
+    - action: utter_ask_pcos_info
+
+- rule: Respond to PCOS diet question
+  steps:
+    - intent: ask_diet_pcos
+    - action: utter_ask_diet_pcos

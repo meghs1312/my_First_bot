@@ -1,0 +1,114 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - ask_first_aid
+  - ask_symptom
+  - ask_treatment
+  - ask_medicine
+  - ask_diet_sick
+  - ask_home_remedy
+  - ask_covid_test
+  - ask_vaccine_info
+  - ask_flu_vs_covid
+  - ask_doctor_contact
+  - thanks
+  - ask_weight_loss
+  - ask_weight_gain
+  - ask_pcos_info
+  - ask_diet_pcos
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with your health today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Take care and stay healthy."
+
+  utter_happy:
+    - text: "That's great to hear! Stay healthy and keep smiling. 😊"
+
+  utter_cheer_up:
+    - text: "Don’t worry. Take a deep breath, rest, and take care of your health."
+
+  utter_did_that_help:
+    - text: "Did that answer your question?"
+
+  utter_ask_first_aid:
+    - text: |
+        For first aid:
+        - Ensure the area is safe.
+        - Check for responsiveness.
+        - Call emergency services (108).
+        - If trained, perform CPR or use a first aid kit.
+
+  utter_ask_symptom:
+    - text: "Please describe your symptoms in detail so I can help you better."
+
+  utter_ask_treatment:
+    - text: "For mild conditions, rest and hydration help. If symptoms persist, consult a doctor."
+
+  utter_ask_medicine:
+    - text: "It’s best to consult a doctor before taking any medicine. Paracetamol is generally used for fever, but dosage depends on your condition."
+
+  utter_ask_diet_sick:
+    - text: "Eat easily digestible foods like khichdi, soup, and fruits. Drink plenty of water and avoid oily/spicy food."
+
+  utter_ask_home_remedy:
+    - text: "For cough/cold, try ginger tea, turmeric milk, or steam inhalation. Rest well and stay hydrated."
+
+  utter_ask_covid_test:
+    - text: "You can get tested at nearby hospitals or labs. Use cowin.gov.in or local health apps to book."
+
+  utter_ask_vaccine_info:
+    - text: "COVID vaccines are safe and reduce severity. Most require 2 doses. Check local guidelines and register on cowin.gov.in."
+
+  utter_ask_flu_vs_covid:
+    - text: "Both have fever and cough. COVID often includes loss of taste/smell and breathing difficulty. Testing is the best way to confirm."
+
+  utter_ask_doctor_contact:
+    - text: "For emergency, call 108. You can also consult online through apps like Practo or Apollo 24/7."
+
+  utter_thanks:
+    - text: "You're welcome! Feel free to ask if you have more questions."
+
+  utter_ask_weight_loss:
+    - text: |
+        For weight loss:
+        - Eat high-fiber foods (vegetables, oats)
+        - Avoid sugar and refined carbs
+        - Drink 2–3 liters of water daily
+        - Do cardio and strength training
+        - Avoid skipping meals
+
+  utter_ask_weight_gain:
+    - text: |
+        For healthy weight gain:
+        - Eat calorie-rich but nutritious food (nuts, dairy, ghee, potatoes)
+        - Have frequent meals and snacks
+        - Include protein like eggs, paneer, legumes
+        - Do strength training for muscle gain
+
+  utter_ask_pcos_info:
+    - text: |
+        PCOS (Polycystic Ovary Syndrome) is a hormonal disorder causing:
+        - Irregular periods
+        - Acne, hair fall, weight gain
+        - Ovarian cysts
+        Lifestyle changes, exercise, and proper diet help manage it. See a gynecologist for diagnosis.
+
+  utter_ask_diet_pcos:
+    - text: |
+        Diet tips for PCOS:
+        - High fiber (vegetables, oats, whole grains)
+        - Lean protein (tofu, fish, eggs)
+        - Low sugar and refined carbs
+        - Avoid dairy and processed food
+        - Stay active and drink lots of water
+
+actions: []
