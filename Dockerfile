@@ -13,4 +13,4 @@ COPY ./my_first_bot /app
 EXPOSE 5005
 
 # Start Rasa server with REST API and CORS enabled
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--debug"]
+CMD ["rasa",  "--enable-api", "--cors", "*", "--debug"]
